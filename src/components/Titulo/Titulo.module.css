@@ -1,0 +1,10 @@
+.titulo {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.titulo > h1 {
+  font-size: 55px;
+  color: #ffffff;
+}
