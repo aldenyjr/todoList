@@ -13,18 +13,29 @@
   justify-content: space-between;
 }
 
-.itens > p {
+.itens > div:nth-child(1) > p {
   font-size: 22px;
   font-weight: 700;
   margin-left: 22px;
+  cursor: pointer;
 }
 
 .checked {
+  text-decoration: line-through;
   color: #8b8585;
 }
 
-.itens > div {
+.itens > div:nth-child(1) {
+  cursor: pointer;
+  width: 100%;
+}
+
+.itens > div:nth-child(2) {
   display: flex;
   margin-right: 22px;
   gap: 22px;
+}
+
+.iconeDelete {
+  cursor: pointer;
 }
